@@ -51,132 +51,159 @@ header {
 	width:100%;
 	height:100%;
 	position: relative;
-	background-image:url("../../index/images/idx_main_back.jpg");
+	background-image:url("../../index/images/idx_main_1.jpg");
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-sizing:border-box;
-	min-height: 85vh;
+	min-height: 85vh;	
 }
-#idx_main h2 {
-	width: 450px;
+
+.txt_1{
 	position: absolute;
-	bottom: 205px;
+	bottom: 30%;
 	right: 95px;
-	font-size: 28px;
+}
+
+#idx_main h2 {
+	font-size: 40px;
 	font-weight: normal;
 	letter-spacing: 0.1em;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	margin-bottom: 60px;
+	color: white;
 }
 #idx_main h2 span {
-	display:inline-block;
     margin-top:30px;
 	width:100%;
-	font-size: 16px;
+	font-size: 100px;
 	letter-spacing: 0.1em;
-	font-family: 'Quicksand', sans-serif;
 }
 
 #idx_main a.down_arrow {
-	width: 410px;
+	width: 60px;
+	height: 60px;
 	position: absolute;
-	right: 135px;
+	right: 15%;
 	font-size: 28px;
 	font-weight: normal;
 	letter-spacing: 0.1em;
-	bottom:130px;
-	text-align: center;
+	bottom: 20%;
+    border-top: 3px solid white;
+    border-right: 3px solid white;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
 }
-
-
 
 #idx_main2 {
 	width:100%;
 	height:100%;
 	position: relative;
-	background-image:url("../../index/images/idx_main_back2.jpg");
+	background-image:url("../../index/images/idx_main_2.jpg");
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-sizing:border-box;
 	min-height: 85vh;
 }
+
+#idx_main2::before{
+	/* 透過した黒を上から重ねるイメージ */
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
 #idx_main2 h2 {
-	width: 420px;
 	position: absolute;
 	bottom: 255px;
-	left: 95px;
-	font-size: 28px;
+	left: 10%;
+	font-size: 50px;
 	font-weight: normal;
 	letter-spacing: 0.1em;
+	color: white;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 #idx_main2 h2 span {
 	display:inline-block;
 	width:100%;
-	font-size: 14px;
+	font-size: 30px;
     margin-top:30px;
 	letter-spacing: 0.1em;
-	font-family: 'Quicksand', sans-serif;
+	line-height: 200%;
 }
 
 #idx_main2 a.down_arrow {
-	width: 350px;
+	width: 60px;
+	height: 60px;
 	position: absolute;
-	left: 95px;
+	left: 20%;
+	bottom: 15%;
 	font-size: 28px;
 	font-weight: normal;
 	letter-spacing: 0.1em;
-	bottom:180px;
 	text-align: center;
+	border-top: 3px solid white;
+    border-right: 3px solid white;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
 }
 
-
-
-
-
 #idx_about {
-	float:left;
 	width:100%;
 	position:relative;
-	background-image:url("../../index/images/idx_about_back.png");
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-size: auto 100%;
-	background-color:#F2F2F2;
+	background: url("../../index/images/about_bg.jpg") no-repeat center center/cover;
 	padding-top: 120px;
 	padding-bottom: 100px;
 	margin-bottom:140px;
 	box-sizing: border-box;
+	min-height: 85vh;
 }
+
+#idx_about::before{
+	/* 透過した黒を上から重ねるイメージ */
+	background-color: rgba(255, 255, 255, 0.7);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	content: ' ';
+}
+
 #idx_about h2 {
 	float: left;
 	width: 100%;
 	position: relative;
 	text-align: center;
-	font-size: 18px;
+	font-size: 60px;
 	letter-spacing: 0.1em;
-	background-image: url("../images/icon01.png");
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: 26px auto;
-	font-family: Quicksand, sans-serif;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
 	margin-bottom: 40px;
 	box-sizing: border-box;
 	font-weight: normal!important;
+	line-height: 200%;
 }
 #idx_about h2 span{
-	font-size: 8px;
+	font-size: 30px;
 }
 #idx_about h3 {
-	float:left;
-	width:100%;
-	position:relative;
+	width:30%;
+	position:absolute;
+	bottom: -550px;
+	left: 35%;
 	text-align:center;
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: normal;
 	letter-spacing: 0.1em;
 	line-height: 1.8em;
 	margin-bottom: 20px;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 #idx_about p.box01 {
 	letter-spacing:0.1em;
@@ -208,8 +235,8 @@ header {
 #idx_about .price01:after {
 	content:"";
 	float:left;
-	width:58px;
-	height:17px;
+	width: 59px;
+	height: 18px;
 	position:absolute;
 	bottom:0px;
 	left:0px;
@@ -288,16 +315,16 @@ header {
 	box-sizing: border-box;
 }
 #idx_about .img01 {
-	width:299px;
+	height:20vw;
 	position:absolute;
-	top: 130px;
-	left:0px;
+	top: 10vw;
+	left: -15vw;
 }
 #idx_about .img02 {
-	width:249px;
+	height:20vw;
 	position:absolute;
-	top: 90px;
-	right:0px;
+	top: 10vw;
+	right:-15vw;
 }
 #idx_about .btn01 {
 	background-color: #FFF;
