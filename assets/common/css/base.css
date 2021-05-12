@@ -477,18 +477,21 @@ header .head_app:hover {
 }
 
 
+/* 
+
+     フッター
+
+*/
 
 
 footer {
-	float:left;
 	width:100%;
+	max-height: 10px;
 	position:relative;
-	border-top:1px solid #E6E6E6;
-	padding-top:80px;
-	padding-bottom: 80px;
 	box-sizing:border-box;
+	justify-content: space-between;
 }
-footer h2 {
+/* footer h2 {
 	float:left;
 	width:100%;
 	position:relative;
@@ -560,20 +563,25 @@ footer h3 {
 }
 .contact_btn2 { 
 	display: none;
+} */
+
+.footer_logo{
+	margin: 0 5vw;
+	text-align: right;
 }
-footer h4 {
+
+footer h4{
+	font-size: 50px;
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+
+/* footer h4 {
 	float:left;
 	width:275px;
 	height:85px;
 	position:relative;
 	left: 50%;
-	margin-left: -134px;
-	background-image:url("../images/footer_logo.png");
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	text-indent: -9999px;
-	margin-bottom: 40px;
 }
 footer .social_icon {
 	float: left;
@@ -611,7 +619,7 @@ footer .copyright {
 	font-size: 9px;
 	letter-spacing: 0.1em;
 	font-family: 'Quicksand', sans-serif;
-}
+} */
 
 
 .sp {

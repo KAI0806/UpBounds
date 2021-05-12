@@ -19,7 +19,7 @@ $(window).load(function(){
     $("#loading").fadeOut(2000);
     setTimeout(function() {
         $("#main_header").css('display', 'block');
-        $("#main_footer").css('display', 'block');
+        $("#main_footer").css('display', 'flex');
         $("#containar").css('display', 'block');
     }, 100)
 });
