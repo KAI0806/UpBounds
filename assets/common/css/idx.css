@@ -180,7 +180,7 @@ header {
 	width: 100%;
 	position: relative;
 	text-align: center;
-	font-size: 60px;
+	font-size: 45px;
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
@@ -191,22 +191,8 @@ header {
 }
 
 #idx_about h2 span{
-	font-size: 30px;
+	font-size: 25px;
 }
-
-/* #idx_about h3 {
-	width:30%;
-	position:absolute;
-	bottom: -550px;
-	left: 35%;
-	text-align:center;
-	font-size: 30px;
-	font-weight: normal;
-	letter-spacing: 0.1em;
-	line-height: 1.8em;
-	margin-bottom: 20px;
-	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-} */
 
 #idx_about p.box01 {
 	letter-spacing:0.1em;
@@ -318,16 +304,16 @@ header {
 	box-sizing: border-box;
 }
 #idx_about .img01 {
-	height:20vw;
+	height:15vw;
 	position:absolute;
 	top: 10vw;
-	left: -15vw;
+	left: -10vw;
 }
 #idx_about .img02 {
-	height:20vw;
+	height:15vw;
 	position:absolute;
 	top: 10vw;
-	right:-15vw;
+	right:-10vw;
 }
 #idx_about .btn01 {
 	background-color: #FFF;
@@ -347,7 +333,7 @@ header {
 	width:100%;
 	position:relative;
 	/* margin-bottom:145px; */
-	min-height: 85vh;
+	padding-bottom: 5vw;
 }
 
 #idx_service h2 {
@@ -355,7 +341,7 @@ header {
 	width:100%;
 	position:relative;
 	text-align:center;
-	font-size: 60px;
+	font-size: 45px;
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
@@ -367,75 +353,53 @@ header {
 }
 
 #idx_service h2::before{
-	content: "";
-    width: 100px;
-    height: .5px;
-    background: #373737;
-    position: absolute;
-    top: 15%;
-    left: 58%;
-    transform: rotate(160deg);
+	content:"";
+	width:80px;
+	height:23px;
+	position:absolute;
+	top:0px;
+	right:38vw;
+	background-image:url("../images/pagetitle_slash01.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
 }
 
 #idx_service h2::after{
-	content: "";
-    width: 100px;
-    height: .5px;
-    background: #373737;
-    position: absolute;
-    bottom: 15%;
-    right: 58%;
-    transform: rotate(160deg);
+	content:"";
+	width:80px;
+	height:24px;
+	position:absolute;
+	bottom:0px;
+	left:39vw;
+	background-image:url("../images/pagetitle_slash02.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
 }
 
 #idx_service h2 span{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 #idx_service .point_list {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: flex-end;
 	width:100%;
 	position:relative;
-	margin-bottom: 10vw;
+	margin-bottom: 5vw;
 }
 
 #idx_service .point_list img{
 	width: 50%;
-	margin-bottom: 50px;
+	margin: 10px;
 }
 
 #idx_service .point_list li {
-	width: 40%;
+	width: 20%;
 	text-align: center;
 }
-
-/* #idx_service .point_list li h3 {
-	width:100%;
-	position:relative;
-	text-align:center;
-	margin-bottom: 30px;
-}
-
-#idx_service .point_list li h4 {
-
-	width:100%;
-	position:relative;
-	text-align:center;
-	font-size: 18px;
-	font-weight: normal;
-	letter-spacing: 0.1em;
-}
-#idx_service .point_list li div {
-
-	width: 100%;
-	height: 172px;
-	position: relative;
-	text-align: center;
-	padding-top: 55px;
-	box-sizing: border-box;
-} */
 
 #idx_service .point_list li:first-child div {
 	padding-top:40px;
@@ -460,7 +424,7 @@ header {
 	height:25px;
 	position:absolute;
 	bottom:0px;
-	left:30%;
+	left:20%;
 	background-image:url("../images/icon_slash01_01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -472,7 +436,7 @@ header {
 	height:25px;
 	position:absolute;
 	bottom:0px;
-	right:30%;
+	right:20%;
 	background-image:url("../images/icon_slash01_02.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -676,10 +640,9 @@ header {
 	float:left;
 	width:100%;
 	position:relative;
-	/* margin-bottom:145px; */
-	min-height: 85vh;
 	background: #EFEFEF;
-	padding-top: 10vw;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
 }
 
 #idx_contact h2 {
@@ -687,7 +650,7 @@ header {
 	width:100%;
 	position:relative;
 	text-align:center;
-	font-size: 60px;
+	font-size: 45px;
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
@@ -725,7 +688,7 @@ header {
 }
 
 #idx_contact h2 span{
-	font-size: 30px;
+	font-size: 25px;
 }
 
 #idx_contact h3{
@@ -733,12 +696,12 @@ header {
 	width:100%;
 	position:relative;
 	text-align:left;
-	font-size: 50px;
+	font-size: 35px;
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
-	margin: 40px 40%;
-	margin-bottom: 10vw;
+	margin: 40px 42%;
+	margin-bottom: 3vw;
 	box-sizing: border-box;
 	font-weight: normal!important;
 	line-height: 200%;

@@ -386,7 +386,7 @@ header .head_app:hover {
 #main_header #mainnavi ul {
 	width: 100%;
 	position:absolute;
-	left:45%;
+	left:47%;
 	top: 20%;
 }
 
@@ -399,7 +399,7 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi .img_link img{
-	width: 4%;
+	width: 3%;
 	margin-right: 10vw;
 }
 
@@ -429,7 +429,7 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi ul li a {
-	font-size: 50px;
+	font-size: 35px;
 	line-height: 1em;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -598,64 +598,23 @@ footer h3 {
 	margin: 0 5vw;
 	text-align: right;
 	font-family: 'Quicksand', sans-serif;
+	position: absolute;
+	bottom: -1.3vw;
 }
 
 footer h4{
-	font-size: 50px;
+	font-size: 30px;
 	margin-bottom: 10px;
 	font-weight: 100;
 }
 
-/* footer h4 {
-	float:left;
-	width:275px;
-	height:85px;
-	position:relative;
-	left: 50%;
-}
-footer .social_icon {
-	float: left;
-	width: 100%;
-	margin-bottom: 40px;
-	text-align: center;
-}
-footer .social_icon li {
-	display: inline-block;
-	margin-right: 15px;
-	width: 20px;
-}
-footer .social_icon li:last-child {
-	margin-right: 0px;
-}
-footer .social_icon li a {
-	display: block;
-	float:left;
-	position:relative;
-	top: 0px;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-}
-footer .social_icon li a:hover {
-	top: 3px;
-}
-footer .social_icon li a img {
-	float:left;
-}
-footer .copyright {
-	float:left;
-	width:100%;
-	position:relative;
-	text-align: center;
-	font-size: 9px;
-	letter-spacing: 0.1em;
-	font-family: 'Quicksand', sans-serif;
-} */
-
-
 .footer_menu{
 	margin-right: 1vw;
-	font-size: 40px;
-	font-weight: 100;
+	font-size: 25px;
+	font-weight: lighter;
+	position: absolute;
+	right: 0;
+	bottom: -0.7vw;
 }
 
 .footer_menu a{
@@ -666,7 +625,7 @@ footer .copyright {
 
 .footer_menu a::before{
 	content: "";
-    width: 60px;
+    width: 50px;
     height: .5px;
     background: #373737;
     position: absolute;
