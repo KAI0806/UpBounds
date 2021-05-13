@@ -331,6 +331,7 @@ header h2 {
 	z-index:2;
 	font-size: 50px;
 	font-weight: 100;
+	font-family: 'Quicksand', sans-serif;
 }
 
 header .head_app {
@@ -383,29 +384,59 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi ul {
-	width: 60%;
-	height:700px;
-	margin-left:-30%;
+	width: 100%;
 	position:absolute;
-	left:50%;
+	left:45%;
+	top: 20%;
 }
+
+#main_header #mainnavi .img_link{
+	position: absolute;
+	text-align: center;
+	left: 5%;
+	bottom: 10%;
+	width: 100%;
+}
+
+#main_header #mainnavi .img_link img{
+	width: 4%;
+	margin-right: 10vw;
+}
+
+#main_header #mainnavi .img_link img:hover{
+	opacity: .5;
+	transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+}
+
 #main_header #mainnavi ul li {
 	float:left;
 	width:100%;
 	font-family: 'Quicksand', sans-serif;
-	text-align:center;
+	/* text-align:center; */
+	position: relative;
 }
+
+#main_header #mainnavi ul li::before{
+	content: "";
+    width: 60px;
+    height: .5px;
+    background: #373737;
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    transform: rotate(150deg);
+}
+
 #main_header #mainnavi ul li a {
-	font-size: 16px;
+	font-size: 50px;
 	line-height: 1em;
-	padding-top: 20px;
-	padding-bottom: 20px;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	position: relative;
 	display: inline-block;
-	padding-left:20px;
-	padding-right:20px;
+	padding: 0 20px;
+	margin: 2vw 0;
 }
 #main_header #mainnavi ul li a:before {
 	content: "";
@@ -435,8 +466,6 @@ header .head_app:hover {
 #main_header #mainnavi ul li a.app:before {
 	background-color:#FFF;
 }
-
-
 
 #main_header #mainnavi p {
 	text-align:center;
@@ -568,6 +597,7 @@ footer h3 {
 .footer_logo{
 	margin: 0 5vw;
 	text-align: right;
+	font-family: 'Quicksand', sans-serif;
 }
 
 footer h4{
@@ -620,6 +650,30 @@ footer .copyright {
 	letter-spacing: 0.1em;
 	font-family: 'Quicksand', sans-serif;
 } */
+
+
+.footer_menu{
+	margin-right: 1vw;
+	font-size: 40px;
+	font-weight: 100;
+}
+
+.footer_menu a{
+	margin: 0 .5vw;
+	position: relative;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.footer_menu a::before{
+	content: "";
+    width: 60px;
+    height: .5px;
+    background: #373737;
+    position: absolute;
+    top: 0%;
+    left: -20%;
+    transform: rotate(150deg);
+}
 
 
 .sp {
