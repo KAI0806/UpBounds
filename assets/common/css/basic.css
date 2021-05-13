@@ -77,10 +77,6 @@
 	background-size:contain;
 }
 
-
-
-
-
 #about01 h3 {
 	float:left;
 	width:100%;
@@ -91,11 +87,13 @@
 	line-height: 1.8em;
 	margin-bottom: 20px;
 }
+
 #about01 p.box01 {
 	font-size: 16px;
 	letter-spacing: 0.1em;
 	margin-bottom: 40px;
 }
+
 #about01 .price01 {
 	float:left;
 	width: 100%;
@@ -112,6 +110,7 @@
 	line-height: 2em;
 	margin-right: 12px;
 }
+
 #about01 .rent:before {
 	content:"";
 	width: 100%;
@@ -120,16 +119,19 @@
 	left: 0px;
 	border-bottom: 1px solid #000000;
 }
+
 #about01 .price01 span {
 	font-size: 34px;
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 0.1em;
 }
+
 #about01 .price02 {
 	float:left;
 	width: 100%;
 	position:relative;
 }
+
 #about01 .deposit {
 	float:left;
 	width: auto;
@@ -138,6 +140,7 @@
 	margin-right: 20px;
 	margin-top: 2px;
 }
+
 #about01 .price02 span {
 	display: inline-block;
 	font-size:20px;
@@ -145,6 +148,7 @@
 	letter-spacing: 0.1em;
 	margin-left: 10px;
 }
+
 #about01 .price02 span:before {
 	content:"";
 	width: 105px;
@@ -153,6 +157,7 @@
 	left: 73px;
 	border-top: 1px solid #000000;
 }
+
 #about01 .campaign {
 	display: inline-block;
 	width: auto;
@@ -167,6 +172,7 @@
 	z-index: 0;
 	box-sizing: border-box;
 }
+
 #about01 .campaign:before {
 	content: "";
 	position: absolute;
@@ -180,23 +186,27 @@
 	border-width: 4px 10px 4px 0;
 	border-color: transparent #E6E6E6 transparent transparent;
 }
+
 #about01 .img01 {
 	float: left;
 	width: 245px;
 	position: relative;
 	margin-top: 140px;
 }
+
 #about01 .img02 {
 	float: right;
 	width: 207px;
 	position: relative;
 	margin-right: 30px;
 }
+
 #about02 p.box01 {
 	text-align:center;
 	font-size:16px;
 	letter-spacing:0.1em;
 }
+
 #about03 .copy01 {
 	float:left;
 	width:580px;
@@ -611,6 +621,10 @@
 
 .service_eye{
 	background: url("../../service/images/service_eye.jpg") no-repeat center center/cover;
+}
+
+.contact_eye{
+	background: url("../../common/images/contact.jpg") no-repeat center center/cover;
 }
 
 .eye_catch h1{
@@ -1142,4 +1156,13 @@ input[type="radio"] {
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 0.1em;
 	box-sizing: border-box;
+}
+
+
+#confirmMessage{
+	background: white;
+	padding: 5vw 0;
+	font-size: 30px;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	border: 1px solid black;
 }
