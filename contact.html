@@ -92,128 +92,25 @@
         <h1>お問い合わせ</h1>
     </section>
 
-    <section id="pagetitle">
+    <section id="pagetitle" class="contact_title">
       <h2><span>CONTACT</span></h2>
+      <a href="contact.html#contents" class="down_arrow"></a>
     </section>
 
-    <div id="contents">
+    <div id="contents" class="contact_in">
         <link href="assets/common/css/select_basic.css" rel="stylesheet" type="text/css" />
-<section class="box01 mb40">
-    <div class="wrapbox01">
-        <p class="box01 text_center mb100 s_mb60" id="confirmMessage">
-            必要事項を明記の上、ご送信ください。
-        </p>
-        <!-- <div class="box01">
-            <form id="mailform" method="post" action="/contact/send">
-                <div class="box02 mr60">
-                    <dl class="list001">
-                        <dt>お名前 ※ </dt>
-                        <dd>
-                            <input name="name" id="name" style="width: 100%; ime-mode: active;" type="text" required>
-                        </dd>
-                    </dl>
-                    <dl class="list001">
-                        <dt>メールアドレス ※ </dt>
-                        <dd>
-                            <input name="email" id="email" style="width: 100%; ime-mode: active;" type="email" required>
-                        </dd>
-                    </dl>
-                    <dl class="list001">
-                        <dt>確認用メールアドレス ※ </dt>
-                        <dd>
-                            <input name="confirm_email" id="confirm_email" style="width: 100%; ime-mode: active;" type="email" required>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="box02">
-                    <dl class="list001">
-                        <dt>ご住所</dt>
-                        <dd>
-                            <input name="address" id="address" style="width: 100%; ime-mode: active;" type="text" />
-                        </dd>
-                    </dl>
-                    <dl class="list001">
-                        <dt>電話番号</dt>
-                        <dd>
-                            <input name="tel" id="tel" style="width: 100%; ime-mode: active;" type="text" />
-                        </dd>
-                    </dl>
-                    <dl class="list001">
-                        <dt>お問合せ内容 ※ </dt>
-                        <dd>
-                            <textarea name="contact" id="contact" class="form01" rows="10" required></textarea>
-                        </dd>
-                    </dl>
-                </div>
-                <div class="send mb100 form-inline">
-                    <button type="reset" class="sendbtn02" id="formResetBtn">リセット</button>
-                    <button type="submit" class="sendbtn01" id="formConfirmBtn">入力内容を確認</button>
-                    <button type="submit" class="sendbtn01" id="formSubmitBtn" style="display: none;">お問い合わせを送信</button>
-                </div>
-            </form>
-        </div> -->
-        <!--box01-->
-    </div>
-</section>
-<script src="https://www.google.com/recaptcha/api.js?render=6LeDba8ZAAAAAEp9Z6zDuLBV-MNyqRuUZdHsJyQa"></script>
-<script>
-    $('#mailform').submit(function() {
-        if ($('#formConfirmBtn').is(':visible')) {
-            if ($('#email').val() != $('#confirm_email').val()) {
-                alert('メールアドレスが一致しません');
-                return false;
-            }
-            // 電話番号は空、もしくは数字のみで入力
-            if ($('#tel').val().search(/^[0-9]*$/) === -1) {
-                alert('電話番号は半角数字のみで入力してください');
-                return false;
-            }
+        <section class="mb40 contact01">
+            <div class="contact_bg"></div>
+            <div class="contact_bg_txt">CONTACT DETAILS</div>
 
-
-            var content = $("#contact").val().replace(/(^\s+)|(\s+$)/g, "");
-            $("#contact").val(content);
-            if (content == "") {
-                alert("お問い合わせ内容を入力してください。");
-                $("#contact").focus();
-                return false;
-            }
-
-
-            $(this).find('input').attr('readonly', true);
-            $(this).find('textarea').attr('readonly', true);
-            $('#formConfirmBtn').hide();
-            $('#formSubmitBtn').show();
-            $('#confirmMessage').text('入力内容をご確認の上、「送信する」ボタンを押してください。');
-
-            $("html,body").animate({scrollTop:0}, 0);
-
-            return false;
-        } else {
-            var self = this;
-            $(':submit', self).prop('disabled', true);
-            setTimeout(function() {
-                $(':submit', self).prop('disabled', false);
-            }, 10000);
-            // reCAPTCHA
-            event.preventDefault();
-            grecaptcha.ready(function() {
-                grecaptcha.execute("6LeDba8ZAAAAAEp9Z6zDuLBV-MNyqRuUZdHsJyQa", {action: 'submit'}).then(function(token) {
-                    $('#mailform').prepend('<input type="hidden" name="g-recaptcha-response" value="' + token + '">');
-                    $('#mailform').prepend('<input type="hidden" name="action" value="submit">');
-                    $('#mailform').unbind('submit').submit();
-                });
-            });
-        }
-    });
-
-    $('#formResetBtn').click(function() {
-        $('#mailform').find('input').removeAttr('readonly');
-        $('#mailform').find('textarea').removeAttr('readonly');
-        $('#formConfirmBtn').show();
-        $('#formSubmitBtn').hide();
-        $('#confirmMessage').html("お問い合わせ内容をご入力ください。<br>誠に恐れ入りますが、ご返信まで２営業日程度お時間をいただいております。<br><a href='faq/' style='text-decoration-line:underline '>よくある質問ページ</a>もご参照ください。");
-    });
-</script>
+            <div class="wrapbox01">
+                <p class="box01 text_center mb100 s_mb60" id="confirmMessage">
+                    必要事項を明記の上、ご送信ください。
+                </p>
+                <script src="https://sdk.form.run/js/v2/embed.js"></script>
+                <div class="formrun-embed" data-formrun-form="@reglos-wevies-1620895879" data-formrun-redirect="true"></div>
+            </div>
+        </section>
     </div>
 </div>
 

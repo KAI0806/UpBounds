@@ -1165,4 +1165,40 @@ input[type="radio"] {
 	font-size: 30px;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	border: 1px solid black;
+	margin-bottom: 5vw;
+}
+
+.contact_in{
+	margin: 5vw auto;
+}
+
+.contact_title{
+	margin-top: 5vw;
+}
+
+.contact01{
+	position: relative;
+}
+
+.contact_bg{
+	position: absolute;
+	left: -10vw;
+	top: 40vw;
+	background-color: #000000;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	height: 30%;
+	width: 200%;
+	transform: rotate(15deg);
+}
+
+.contact_bg_txt{
+	position: absolute;
+	white-space: nowrap;
+	font-size: 	100px;
+	color: white;
+	letter-spacing:.2em;
+	top: 25vw;
+	left: -5vw;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+	transform: rotate(270deg);
 }
