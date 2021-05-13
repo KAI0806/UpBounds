@@ -699,25 +699,29 @@ header {
 }
 
 #idx_contact h2::before{
-	content: "";
-    width: 100px;
-    height: .5px;
-    background: #373737;
-    position: absolute;
-    top: 15%;
-    left: 59%;
-    transform: rotate(160deg);
+	content:"";
+	width:80px;
+	height:23px;
+	position:absolute;
+	top:0px;
+	right:38vw;
+	background-image:url("../images/pagetitle_slash01.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
 }
 
 #idx_contact h2::after{
-	content: "";
-    width: 100px;
-    height: .5px;
-    background: #373737;
-    position: absolute;
-    bottom: 15%;
-    right: 59%;
-    transform: rotate(160deg);
+	content:"";
+	width:80px;
+	height:24px;
+	position:absolute;
+	bottom:0px;
+	left:39vw;
+	background-image:url("../images/pagetitle_slash02.png");
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;
 }
 
 #idx_contact h2 span{

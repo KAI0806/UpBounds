@@ -404,7 +404,7 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi .img_link img:hover{
-	opacity: .5;
+	opacity: .5;	
 	transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
 }
