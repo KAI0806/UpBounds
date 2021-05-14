@@ -691,6 +691,11 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
+.map_sp{
+	display: none;
+}
+
+
 #idx_contact{
 	float:left;
 	width:100%;

@@ -635,6 +635,10 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
+.map_pc{
+	display: none;
+}
+
 
 
 .faq01 {
