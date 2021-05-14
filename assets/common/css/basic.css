@@ -705,7 +705,7 @@
 	width:100%;
 	position:relative;
 	text-align:center;
-	font-size: 45px;
+	font-size: 35px;
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
@@ -743,7 +743,7 @@
 }
 
 #idx_contact h2 span{
-	font-size: 25px;
+	font-size: 20	px;
 }
 
 #idx_contact h3{
@@ -751,12 +751,12 @@
 	width:100%;
 	position:relative;
 	text-align:left;
-	font-size: 35px;
+	font-size: 20px;
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
-	margin: 40px 42%;
-	margin-bottom: 3vw;
+	margin: 0 44%;
+	margin-bottom: 5%;
 	box-sizing: border-box;
 	font-weight: normal!important;
 	line-height: 200%;
