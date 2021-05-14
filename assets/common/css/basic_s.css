@@ -623,7 +623,7 @@
 	letter-spacing:0.1em;
 	margin: 2vw auto;
 	background-color: white;
-	padding: 5px 0;
+	padding: 0 5px;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	border: .5px solid black;
 }
@@ -1169,12 +1169,11 @@ input[type="radio"] {
 
 .contact_bg{
 	position: absolute;
-	left: -10vw;
-	top: 18vw;
+	right: -25vw;
+	top: 20vw;
 	background-color: #000000;
-	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	height: 30%;
-	width: 120%;
+	height: 250px;
+	width: 2000px;
 	transform: rotate(15deg);
 }
 
