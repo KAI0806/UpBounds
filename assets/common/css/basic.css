@@ -245,10 +245,10 @@
 	position: absolute;
 	color: white;
 	white-space: nowrap;
-	font-size: 150px;
+	font-size: 100px;
 	letter-spacing:.2em;
-	top: 35vw;
-	right: -15vw;
+	top: 20%;
+	right: -25%;
 	transform: rotate(270deg);
 }
 
@@ -269,7 +269,7 @@
 	background-color: white;
 	border: 1px solid black;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 35px;
+	font-size: 25px;
 	font-weight: lighter;
 	padding: 20px;
 	margin: auto 15px;
@@ -281,15 +281,15 @@
 	background-color: white;
 	border: 1px solid black;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: lighter;
-	padding: 20px;
-	width: 25%;
+	padding: 10px;
+	width: 20%;
 	text-align: center;
 	transform: rotate(270deg);
 	position: absolute;
-	top: 5vw;
-	left: -10vw;
+	top: 5%;
+	left: -10%;
 }
 
 .menu_1 p, .menu_2 p{
@@ -306,13 +306,14 @@
 	height: 350px;
 	box-shadow: 30px 30px #bbbbbb;
 	position: absolute;
-	top: 5vw;
-	left: 5vw;
+	top: 5%;
+	left: 20%;
 }
 
 .menu_1, .menu_2{
 	position: relative;
 	height: 40vw;
+	margin-bottom: 50px;
 }
 
 .menu_1_img{
@@ -322,14 +323,14 @@
 
 .menu_1 p{
 	position: absolute;
-	bottom: 10vw;
-	right: 10vw;
+	top: 60%;
+	right: 5%;
 }
 
 .menu_2 p{
 	position: absolute;
-	bottom: 10vw;
-	right: 10vw;
+	top: 55%;
+	right: 5%;
 }
 
 .menu_2_img{
