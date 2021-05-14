@@ -445,7 +445,7 @@ header .head_app:hover {
 	width: 0%;
 	position: absolute;
 	left: 0px;
-	top: 27px;
+	top: 15px;
 	transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
 }
