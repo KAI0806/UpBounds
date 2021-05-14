@@ -393,14 +393,13 @@ header .head_app:hover {
 #main_header #mainnavi .img_link{
 	position: absolute;
 	text-align: center;
-	left: 5%;
-	bottom: 10%;
+	bottom: 3%;
 	width: 100%;
 }
 
 #main_header #mainnavi .img_link img{
 	width: 3%;
-	margin-right: 10vw;
+	margin: 10%;
 }
 
 #main_header #mainnavi .img_link img:hover{
@@ -445,7 +444,7 @@ header .head_app:hover {
 	width: 0%;
 	position: absolute;
 	left: 0px;
-	top: 15px;
+	top: 50%;
 	transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
 }

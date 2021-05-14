@@ -627,16 +627,16 @@
 }
 
 .eye_catch h1{
-	font-size: 70px;
+	font-size: 50px;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	color: white;
 }
 
 #pagetitle .down_arrow {
-	width: 60px;
-	height: 60px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
-	right: 30vw;
+	right: 20%;
 	font-size: 28px;
 	font-weight: normal;
 	letter-spacing: 0.1em;
@@ -657,11 +657,11 @@
 .bg_txt{
 	position: absolute;
 	white-space: nowrap;
-	font-size: 130px;
+	font-size: 90px;
 	color: white;
 	letter-spacing:.2em;
-	top: 25vw;
-	right: 20vw;
+	top: 50%;
+	right: 45%;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	transform: rotate(270deg);
 }
@@ -674,8 +674,8 @@
 	flex-direction: column;
 }
 .company01 dt {
-	width:30%;
-	font-size:25px;
+	width:25%;
+	font-size:20px;
 	letter-spacing:0.1em;
 	margin: 2vw auto;
 	background-color: white;
@@ -685,7 +685,7 @@
 }
 .company01 dd {
 	width:100%;
-	font-size:20px;
+	font-size:17px;
 	line-height: 2em;
 	font-family: 'Quicksand', sans-serif;
 }
@@ -721,7 +721,7 @@
 	height:23px;
 	position:absolute;
 	top:0px;
-	right:38vw;
+	right:36%;
 	background-image:url("../images/pagetitle_slash01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -734,7 +734,7 @@
 	height:24px;
 	position:absolute;
 	bottom:0px;
-	left:39vw;
+	left:36%;
 	background-image:url("../images/pagetitle_slash02.png");
 	background-position:center center;
 	background-repeat:no-repeat;

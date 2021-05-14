@@ -56,7 +56,7 @@ header {
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-sizing:border-box;
-	min-height: 85vh;	
+	min-height: 70vh;	
 }
 
 .txt_1{
@@ -104,7 +104,7 @@ header {
 	background-repeat:no-repeat;
 	background-size:cover;
 	box-sizing:border-box;
-	min-height: 85vh;
+	min-height: 70vh;
 }
 
 #idx_main2::before{
@@ -122,7 +122,7 @@ header {
 	position: absolute;
 	bottom: 255px;
 	left: 10%;
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: normal;
 	letter-spacing: 0.1em;
 	color: white;
@@ -131,8 +131,7 @@ header {
 #idx_main2 h2 span {
 	display:inline-block;
 	width:100%;
-	font-size: 30px;
-    margin-top:30px;
+	font-size: 25px;
 	letter-spacing: 0.1em;
 	line-height: 200%;
 }
@@ -157,11 +156,11 @@ header {
 	width:100%;
 	position:relative;
 	background: url("../../index/images/about_bg.jpg") no-repeat center center/cover;
-	padding-top: 120px;
+	padding-top: 50px;
 	padding-bottom: 100px;
 	margin-bottom:140px;
 	box-sizing: border-box;
-	min-height: 85vh;
+	min-height: 70vh;
 }
 
 #idx_about::before{
@@ -180,14 +179,14 @@ header {
 	width: 100%;
 	position: relative;
 	text-align: center;
-	font-size: 45px;
+	font-size: 40px;
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 	box-sizing: border-box;
 	font-weight: normal!important;
-	line-height: 200%;
+	line-height: 150%;
 }
 
 #idx_about h2 span{
@@ -358,7 +357,7 @@ header {
 	height:23px;
 	position:absolute;
 	top:0px;
-	right:38vw;
+	right:37%;
 	background-image:url("../images/pagetitle_slash01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -371,7 +370,7 @@ header {
 	height:24px;
 	position:absolute;
 	bottom:0px;
-	left:39vw;
+	left:37%;
 	background-image:url("../images/pagetitle_slash02.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -424,7 +423,7 @@ header {
 	height:25px;
 	position:absolute;
 	bottom:0px;
-	left:20%;
+	left:10%;
 	background-image:url("../images/icon_slash01_01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -436,7 +435,7 @@ header {
 	height:25px;
 	position:absolute;
 	bottom:0px;
-	right:20%;
+	right:10%;
 	background-image:url("../images/icon_slash01_02.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -667,7 +666,7 @@ header {
 	height:23px;
 	position:absolute;
 	top:0px;
-	right:38vw;
+	right:36%;
 	background-image:url("../images/pagetitle_slash01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -680,7 +679,7 @@ header {
 	height:24px;
 	position:absolute;
 	bottom:0px;
-	left:39vw;
+	left:36%;
 	background-image:url("../images/pagetitle_slash02.png");
 	background-position:center center;
 	background-repeat:no-repeat;
