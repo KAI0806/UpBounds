@@ -40,7 +40,6 @@
 	line-height: 2em;
 	padding-top: 50px;
 	box-sizing: border-box;
-
 }
 
 #pagetitle h2 span {
@@ -234,7 +233,6 @@
 	left: -10vw;
 	top: 1%;
 	background-color: #EFEFEF;
-	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	height: 30%;
 	width: 200%;
 	transform: rotate(-15deg);
@@ -674,6 +672,7 @@
 	justify-content: center;
 	flex-direction: column;
 }
+
 .company01 dt {
 	width:25%;
 	font-size:20px;
@@ -684,6 +683,7 @@
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	border: .5px solid black;
 }
+
 .company01 dd {
 	width:100%;
 	font-size:17px;

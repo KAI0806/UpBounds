@@ -138,8 +138,6 @@ clear:both;
 	100%{stroke-DASHoffset:0;fill:none;stroke-opacity:1;}
 }
 
-
-
 .s_menu {
 	display: block;
 	text-indent: -9999px;
@@ -147,7 +145,7 @@ clear:both;
 	width: 24px;
 	position: absolute;
 	top: 21px;
-	right: 18px;
+	left: 65%;
 	z-index: 10!important;
 	cursor: pointer;
 	transition: all 0.3s ease;
@@ -314,7 +312,8 @@ header h2 {
 	width: 160px;
 	position:absolute;
 	top: 20px;
-	left:50%;
+	left:36%;
+	text-align: center;
 	margin-left: -75px;
 	-webkit-transition: all 0.3s ease;
 	/* display: none; */
@@ -334,24 +333,14 @@ header .head_app {
 	margin-top: 65px;
 	overflow-y: scroll;
 	display:none;
+	padding-left: 40vw;
 }
-#main_header #mainnavi h3 {
-	float: left;
-	width: 100%;
-	font-size: 20px;
-	font-weight: normal;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-family: 'Quicksand', sans-serif;
-	display: none;
-}
+
 #main_header #mainnavi ul {
-	width: 90%;
-	height: 500px;
-	margin-right:auto;
-	margin-left:auto;
-	margin-top: 20px;
+	width: 100%;
+	position: absolute;
+	top: 25vw;
+	left: 3vw;
 	font-family: 'Quicksand', sans-serif;
 }
 #main_header #mainnavi ul li {
@@ -366,6 +355,7 @@ header .head_app {
 	text-align: center;
 	float: left;
 	width: 100%;
+	margin: 10px auto;
 	padding-top: 14px;
 	padding-bottom: 14px;
 	transition: all 0.3s ease;
@@ -390,19 +380,33 @@ header .head_app {
 	margin-top: 20px;
 }
 
+.head_icon{
+	max-width: 30px;
+}
+
+#main_header #mainnavi .img_link{
+	position: absolute;
+	top: 120vw;
+	width: 100%;
+}
+
+#main_header #mainnavi .img_link img{
+	width: 10%;
+	margin: 3% 10%;
+}
+
 
 
 
 
 footer {
-	float:left;
 	width:100%;
+	max-height: 10px;
 	position:relative;
-	border-top:1px solid #E6E6E6;
-	padding-top: 60px;
-	padding-bottom: 60px;
 	box-sizing:border-box;
+	justify-content: space-between;
 }
+
 footer h2 {
 	float:left;
 	width:100%;
@@ -508,19 +512,10 @@ footer h3 {
 
 
 footer h4 {
-	float:left;
-	width: 100%;
-	height:60px;
-	position:relative;
-	background-image:url("../images/footer_logo.png");
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-	text-indent: -9999px;
-	margin-bottom: 20px;
+	font-size: 13px;
+	font-weight: 100;
+	margin-left: 5px;
 }
-
-
 
 footer .social_icon {
 	float: left;
@@ -557,11 +552,37 @@ footer .copyright {
 	width:100%;
 	position:relative;
 	text-align: center;
-	font-size: 9px;
+	font-size: 5px;
 	letter-spacing: 0.1em;
+	font-family: 'Quicksand', sans-serif;
+	margin-right: 10px;
+}
+
+.footer_menu{
+	margin-right: 1vw;
+	font-size: 10px;
+	font-weight: lighter;
+	position: absolute;
+	right: 0;
+	top: 100%;
+}
+
+.footer_menu a{
+	margin: 0 .5vw;
+	position: relative;
 	font-family: 'Quicksand', sans-serif;
 }
 
+.footer_menu a::before{
+	content: "";
+    width: 15px;
+    height: .5px;
+    background: #373737;
+    position: absolute;
+    top: 3%;
+    right: 70%;
+    transform: rotate(150deg);
+}
 
 .pc {
 	display:none;
