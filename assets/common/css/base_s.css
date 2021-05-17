@@ -385,6 +385,10 @@ header .head_app {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	position:absolute;
+	bottom: 250px;
+	left:20%;
+	text-align: center;
 }
 
 #main_header #mainnavi .img_link .mail{

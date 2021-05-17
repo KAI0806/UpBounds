@@ -391,15 +391,24 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi .img_link{
-	position: absolute;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position:absolute;
+	bottom: 250px;
+	left:45%;
 	text-align: center;
-	bottom: 3%;
-	width: 100%;
 }
 
-#main_header #mainnavi .img_link img{
-	width: 3%;
-	margin: 3% 10%;
+#main_header #mainnavi .img_link .mail{
+	width: 60%;
+	margin: 20px;
+}
+
+#main_header #mainnavi .img_link .phone{
+	width: 55%;
+	margin: 20px;
+
 }
 
 #main_header #mainnavi .img_link img:hover{
