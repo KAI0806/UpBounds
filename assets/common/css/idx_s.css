@@ -29,16 +29,13 @@ header {
 	position: relative;
 	box-sizing:border-box;
 	min-height: 150px;
-	/*min-height: 38vh;*/
 }
 
 #idx_error h2 {
-        color: #c09853;
+    color: #c09853;
 	width: 100%;
 	position: absolute;
-        bottom: 7px;
-        /*bottom: 205px;*/
-	/*right: 95px;*/
+    bottom: 7px;
 	font-size: 14px;
 	font-weight: normal;
 	letter-spacing: 0.1em;

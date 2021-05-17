@@ -226,8 +226,6 @@ header {
 	background-color:#FFF;
 	z-index:100;
 	box-sizing:border-box;
-	/*transition: all 0.3s ease;*/
-	/*-webkit-transition: all 0.3s ease;*/
 }
 .head_line {
 	width:100%;
@@ -316,7 +314,6 @@ header h2 {
 	text-align: center;
 	margin-left: -75px;
 	-webkit-transition: all 0.3s ease;
-	/* display: none; */
 	z-index: 2;
 }
 header .head_app {
@@ -632,98 +629,4 @@ img[class*="wp-image-"],
 img[class*="attachment-"] {
     max-width: 100%;
     height: auto;
-}
-
-
-.sponser_section {
-	border-top: 1px solid #E6E6E6;
-	padding-top: 50px;
-
-	float: left;
-	width: 100%;
-	position: relative;
-	box-sizing: border-box;
-}
-.sponser_section ul{
-}
-.sponser_section .sponser_li {
-	vertical-align: middle;
-	line-height: 100px;
-	text-align: center;
-}
-.sponser_section .sponser_li img {
-	width:300px;
-	vertical-align: middle;
-}
-
-.sponser_section h2 {
-	float: left;
-	width: 100%;
-	position: relative;
-	text-align: center;
-	font-size: 18px;
-	letter-spacing: 0.1em;
-	background-image: url("../images/icon01.png");
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: 26px auto;
-	font-family: 'Quicksand', sans-serif;
-	padding-top: 25px;
-	margin-bottom: 40px;
-	box-sizing: border-box;
-	font-weight: normal;
-}
-
-.sponser_section h2 span{
-	font-size: 8px;
-}
-
-.tools_section {
-	border-top: 1px solid #E6E6E6;
-	padding-top: 50px;
-
-	float: left;
-	width: 100%;
-	position: relative;
-	box-sizing: border-box;
-}
-.tools_section div.tools_icon_container{
-	float:left;
-	display: flex;
-	flex-flow: row wrap;
-	position: relative;
-	width:100%;
-	margin-bottom: 20px;
-}
-.tools_section .icon_li {
-	vertical-align: middle;
-	width: 33.33%;
-	line-height: 100px;
-	text-align: center;
-}
-.tools_section .icon_li img {
-	width:60px;
-	vertical-align: middle;
-}
-
-.tools_section h2 {
-	float: left;
-	width: 100%;
-	position: relative;
-	text-align: center;
-	font-size: 18px;
-	letter-spacing: 0.1em;
-	background-image: url("../images/icon01.png");
-	background-position: center top;
-	background-repeat: no-repeat;
-	background-size: 26px auto;
-	font-family: 'Quicksand', sans-serif;
-	padding-top: 25px;
-	margin-bottom: 20px;
-	box-sizing: border-box;
-	font-weight: normal;
-}
-
-.tools_section h2 span{
-	font-size: 8px;
 }

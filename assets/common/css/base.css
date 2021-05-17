@@ -237,8 +237,6 @@ header {
 	background-color:#FFF;
 	z-index:100;
 	box-sizing:border-box;
-	/*transition: all 0.3s ease;*/
-	/*-webkit-transition: all 0.3s ease;*/
 }
 .head_line {
 	width:100%;
@@ -359,12 +357,6 @@ header .head_app:hover {
 	max-width: 60px;
 }
 
-/* #main_header h1{
-	position: absolute;
-	top: 60px;
-	left: 5%;
-} */
-
 #main_header #mainnavi {
 	width: 100%;
 	height: calc(100% - 150px);
@@ -421,7 +413,6 @@ header .head_app:hover {
 	float:left;
 	width:100%;
 	font-family: 'Quicksand', sans-serif;
-	/* text-align:center; */
 	position: relative;
 }
 
@@ -535,79 +526,6 @@ footer {
 	box-sizing:border-box;
 	justify-content: space-between;
 }
-/* footer h2 {
-	float:left;
-	width:100%;
-	position:relative;
-	text-align:center;
-	font-size:24px;
-	font-weight: normal;
-	font-family: 'Quicksand', sans-serif;
-	letter-spacing: 0.1em;
-	margin-bottom: 5px;
-}
-footer h3 {
-	float:left;
-	width:100%;
-	position:relative;
-	text-align: center;
-	font-weight: normal;
-	letter-spacing: 0.1em;
-	margin-bottom: 40px;
-}
-.contact_btn {
-	float:left;
-	width:860px;
-	position:relative;
-	margin-left: 110px;
-	margin-bottom: 60px;
-}
-.contact_btn li {
-	float:left;
-	width:400px;
-	height:100%;
-	margin-right: 60px;
-	box-sizing: border-box;
-}
-.contact_btn li:last-child {
-	margin-right:0px;
-}
-.contact_btn a {
-	float: left;
-	width: 100%;
-	height: 100px;
-	position: relative;
-	text-align: center;
-	font-size: 19px;
-	letter-spacing: 0.1em;
-	background-color: #F2F2F2;
-	background-image: url("../images/icon_arrow04.png");
-	background-position: right 20px center;
-	background-repeat: no-repeat;
-	background-size: 41px auto;
-	text-decoration: none;
-	line-height: 1em;
-	padding-top: 35px;
-	box-sizing:border-box;
-}
-.contact_btn a span {
-	float: left;
-	width: 100%;
-	text-align: center;
-	font-size: 10px;
-	letter-spacing: 0.1em;
-	font-family: Quicksand, sans-serif;
-	line-height: 1em;
-	margin-top:5px;
-}
-
-.contact_btn a:hover {
-	background-position:right 15px center;
-	padding-left: 20px;
-}
-.contact_btn2 { 
-	display: none;
-} */
 
 .footer_logo{
 	margin: 0 5vw;
@@ -697,107 +615,3 @@ img[class*="attachment-"] {
 }
 
 
-.sponser_section {
-	border-top: 1px solid #E6E6E6;
-	padding-top: 50px;
-
-	float: left;
-	width: 100%;
-	position: relative;
-	box-sizing: border-box;
-}
-.sponser_section div.contact_btn{
-	width:100%;
-	height: 120px;
-	margin-left: 0;
-	text-align: center;
-	margin-bottom: 40px;
-}
-.sponser_section .sponser_li {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 120px;
-	text-align: center;
-	width:30%;
-	margin-right: 4%;
-}
-.sponser_section .sponser_li img {
-	width:300px;
-}
-.sponser_section .sponser_li:last-child {
-	margin-right: 0px;
-}
-
-.sponser_section h2 {
-	float:left;
-	width:100%;
-	position:relative;
-	text-align:center;
-	font-size: 18px;
-	font-weight:normal;
-	letter-spacing: 0.1em;
-	background-image:url("../images/icon01.png");
-	background-position:center top;
-	background-repeat:no-repeat;
-	background-size: 26px auto;
-	font-family: 'Quicksand', sans-serif;
-	padding-top: 25px;
-	box-sizing: border-box;
-}
-
-.sponser_section h2 span{
-	font-size: 8px;
-}
-
-.tools_section {
-	border-top: 1px solid #E6E6E6;
-	padding-top: 50px;
-
-	float: left;
-	width: 100%;
-	position: relative;
-	box-sizing: border-box;
-}
-.tools_section div.tools_icon_container{
-	float:left;
-	position: relative;
-	width:100%;
-	margin-left: 0;
-	text-align: center;
-	margin-bottom: 40px;
-}
-.tools_section .icon_li {
-	display: inline-block;
-	vertical-align: middle;
-	line-height: 120px;
-	text-align: center;
-	width:10%;
-	margin-right: 4%;
-}
-.tools_section .icon_li img {
-	width:80px;
-}
-.tools_section .icon_li:last-child {
-	margin-right: 0px;
-}
-
-.tools_section h2 {
-	float:left;
-	width:100%;
-	position:relative;
-	text-align:center;
-	font-size: 18px;
-	font-weight:normal;
-	letter-spacing: 0.1em;
-	background-image:url("../images/icon01.png");
-	background-position:center top;
-	background-repeat:no-repeat;
-	background-size: 26px auto;
-	font-family: 'Quicksand', sans-serif;
-	padding-top: 25px;
-	box-sizing: border-box;
-}
-
-.tools_section h2 span{
-	font-size: 8px;
-}
