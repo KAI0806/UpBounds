@@ -391,20 +391,14 @@ header {
 	text-align: center;
 }
 
-#idx_service .point_list img{
-	width: 60%;
-	margin: auto;
-	margin: 50px auto;
-	
-}
-
-#idx_service .point_list .point_img_left{
-	width: 53%;
-}
-
 #idx_service .point_list li {
-	width: 50%;
+	width: 25%;
 	text-align: center;
+	margin: 100px auto;
+}
+
+#idx_service .point_list .svg_right{
+	width: 35%;
 }
 
 #idx_service .point_list li:first-child div {
@@ -422,6 +416,7 @@ header {
 	font-size: 40px;
 	letter-spacing: 0.1em;
 	font-family: 'Quicksand', sans-serif;
+	margin-top: 100px;
 }
 
 #idx_service .point_list li p:before {
@@ -430,7 +425,7 @@ header {
 	height:25px;
 	position:absolute;
 	bottom:0px;
-	right:400px;
+	right:350px;
 	background-image:url("../images/icon_slash01_01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -442,7 +437,7 @@ header {
 	height:25px;
 	position:absolute;
 	bottom:0px;
-	left:400px;
+	left:350px;
 	background-image:url("../images/icon_slash01_02.png");
 	background-position:center center;
 	background-repeat:no-repeat;
