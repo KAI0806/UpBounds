@@ -703,6 +703,7 @@
 	background: #EFEFEF;
 	padding-top: 5vw;
 	padding-bottom: 5vw;
+	height: 40vh;
 }
 
 #idx_contact h2 {
@@ -748,7 +749,7 @@
 }
 
 #idx_contact h2 span{
-	font-size: 20	px;
+	font-size: 20px;
 }
 
 #idx_contact h3{
