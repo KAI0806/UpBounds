@@ -643,16 +643,21 @@
 	display: none;
 }
 
-.company01 .img_link a{
-	margin: auto 80px;
+.company01 .img_link{
+	display: flex;
+	justify-content: center;
 }
+
+/* .company01 .img_link a{
+	margin: auto 80px;
+} */
 
 .company01 .img_link a:hover{
 	opacity: 0.5;
 }
 
 .company01 .img_link img{
-	width: 5%;
+	width: 20%;
 }
 
 
