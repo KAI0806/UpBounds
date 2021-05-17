@@ -55,13 +55,13 @@ header {
 	padding-top: 65px;
 	box-sizing:border-box;
 	overflow: hidden;
-	min-height: 85vh;
+	min-height: 50vh;
 }
 #idx_main h2 {
 	width: 100%;
 	position: absolute;
 	top: 35%;
-	right: 20px;
+	right: 60px;
 	text-align: right;
 	font-size: 25px;
 	font-weight: normal;
@@ -79,9 +79,16 @@ header {
 
 #idx_main a.down_arrow {
 	position: absolute;
-	bottom:170px;
-	left:50%;
-	margin-left: -32px;
+	top: 250px;
+	left: 48%;
+	width: 20px;
+	height: 20px;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
 }
 
 
@@ -96,7 +103,7 @@ header {
 	padding-top: 65px;
 	box-sizing:border-box;
 	overflow: hidden;
-	min-height: 85vh;
+	min-height: 50vh;
 }
 
 #idx_main2::before{
@@ -113,8 +120,8 @@ header {
 #idx_main2 h2 {
 	width: 100%;
 	position: absolute;
-	top: 40%;
-	left: 10px;
+	top: 25%;
+	left: 20px;
 	font-size: 20px;
 	font-weight: normal;
 	letter-spacing: 0.1em;
@@ -130,9 +137,16 @@ header {
 
 #idx_main2 a.down_arrow {
 	position: absolute;
-	bottom:170px;
-	left:50%;
-	margin-left: -32px;
+	top: 250px;
+	left: 48%;
+	width: 20px;
+	height: 20px;
+	font-weight: normal;
+	letter-spacing: 0.1em;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
 }
 
 #idx_about {
@@ -617,17 +631,17 @@ header {
 	position: relative;
 }
 
+
+
+
 #idx_contact{
 	float:left;
 	width:100%;
 	position:relative;
 	background: #EFEFEF;
-	padding-top: 5vw;
-	padding-bottom: 5vw;
+	padding-top: 40px;
+	padding-bottom: 70px;
 }
-
-
-
 
 #idx_contact h2 {
 	float:left;
@@ -642,6 +656,7 @@ header {
 	font-weight: normal!important;
 	line-height: 100%;
 	box-sizing: border-box;
+
 }
 
 #idx_contact h2::before{
@@ -649,8 +664,8 @@ header {
 	width:25px;
 	height:25px;
 	position:absolute;
-	top:3px;
-	right:28%;
+	top:5px;
+	right: 70px;
 	background-image:url("../images/pagetitle_slash01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -662,8 +677,8 @@ header {
 	width:25px;
 	height:25px;
 	position:absolute;
-	bottom:0px;
-	left:28%;
+	bottom:-5px;
+	left:70px;
 	background-image:url("../images/pagetitle_slash02.png");
 	background-position:center center;
 	background-repeat:no-repeat;

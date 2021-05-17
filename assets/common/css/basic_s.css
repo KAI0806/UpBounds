@@ -1075,8 +1075,8 @@ input[type="radio"] {
 	width:100%;
 	position:relative;
 	background: #EFEFEF;
-	padding-top: 5vw;
-	padding-bottom: 5vw;
+	padding-top: 50px;
+	padding-bottom: 70px;
 }
 
 
@@ -1100,8 +1100,8 @@ input[type="radio"] {
 	width:25px;
 	height:25px;
 	position:absolute;
-	top:3px;
-	right:28%;
+	top:5px;
+	right: 100px;
 	background-image:url("../images/pagetitle_slash01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -1113,8 +1113,8 @@ input[type="radio"] {
 	width:25px;
 	height:25px;
 	position:absolute;
-	bottom:0px;
-	left:28%;
+	bottom:-5px;
+	left:100px;
 	background-image:url("../images/pagetitle_slash02.png");
 	background-position:center center;
 	background-repeat:no-repeat;
