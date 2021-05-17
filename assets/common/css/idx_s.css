@@ -55,7 +55,7 @@ header {
 	padding-top: 65px;
 	box-sizing:border-box;
 	overflow: hidden;
-	min-height: 50vh;
+	min-height: 90vh;
 }
 #idx_main h2 {
 	width: 100%;
@@ -79,7 +79,7 @@ header {
 
 #idx_main a.down_arrow {
 	position: absolute;
-	top: 250px;
+	bottom: 300px;
 	left: 48%;
 	width: 20px;
 	height: 20px;
