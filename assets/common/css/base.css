@@ -325,7 +325,7 @@ header h2 {
 	height:17px;
 	position:absolute;
 	top: 70px;
-	left:43.2%;
+	left:41%;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	z-index:2;
@@ -497,7 +497,7 @@ header .head_app:hover {
 }
 .is-animation h2 {
 	top: 24px;
-	left: 44.5%;
+	left: 42.7%;
     font-size: 40px;
 }
 .is-animation h2 svg {
