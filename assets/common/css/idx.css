@@ -331,8 +331,7 @@ header {
 	float:left;
 	width:100%;
 	position:relative;
-	/* margin-bottom:145px; */
-	padding-bottom: 15vh;
+	padding-bottom: 10vh;
 }
 
 #idx_service h2 {
@@ -343,8 +342,6 @@ header {
 	font-size: 45px;
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
-	padding-top: 50px;
-	margin-bottom: 40px;
 	box-sizing: border-box;
 	font-weight: normal!important;
 	line-height: 100%;
@@ -387,14 +384,14 @@ header {
 	align-items: flex-end;
 	width:100%;
 	position:relative;
-	margin-bottom: 5vw;
+	margin-bottom: 20px;
 	text-align: center;
 }
 
 #idx_service .point_list li {
 	width: 20%;
 	text-align: center;
-	margin: 100px auto;
+	margin: 70px auto;
 }
 
 #idx_service .point_list .svg_right{
