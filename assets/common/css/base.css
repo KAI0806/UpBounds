@@ -254,7 +254,7 @@ header h1 {
 	width: 72px;
 	height:46px;
 	position:absolute;
-	top:67px;
+	top:55px;
 	left:90px;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -324,7 +324,7 @@ header h1 #mark .st3{
 header h2 {
 	height:17px;
 	position:absolute;
-	top: 79px;
+	top: 70px;
 	left:43%;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -359,11 +359,11 @@ header .head_app:hover {
 	max-width: 70px;
 }
 
-#main_header h1{
+/* #main_header h1{
 	position: absolute;
-	top: 26%;
+	top: 60px;
 	left: 5%;
-}
+} */
 
 #main_header #mainnavi {
 	width: 100%;
@@ -485,13 +485,13 @@ header .head_app:hover {
   height: 80px;
 }
 .is-animation h1 {
-	top: 23px;
+	top: 5px;
 }
 .is-animation h1 svg {
 	height: 70%!important;
 }
 .is-animation h2 {
-	top: 32px;
+	top: 20px;
 }
 .is-animation h2 svg {
 	width: 240px!important;

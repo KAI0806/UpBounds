@@ -392,10 +392,14 @@ header {
 }
 
 #idx_service .point_list img{
-	width: 70%;
+	width: 60%;
 	margin: auto;
 	margin: 50px auto;
 	
+}
+
+#idx_service .point_list .point_img_left{
+	width: 53%;
 }
 
 #idx_service .point_list li {
