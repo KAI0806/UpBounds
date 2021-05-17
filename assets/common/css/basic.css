@@ -5,7 +5,6 @@
 	position: relative;
 	padding-top:150px;
 	box-sizing:border-box;
-	background-color: #dddddd;
 }
 
 #contents {
@@ -241,7 +240,7 @@
 .service_bg_txt{
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	position: absolute;
-	color: white;
+	color: #F5F5F5;
 	white-space: nowrap;
 	font-size: 100px;
 	letter-spacing:.2em;
@@ -651,13 +650,14 @@
 	width:100%;
 	text-align: center; /* 中央寄せ */
 	position: relative;
+	margin-bottom: 100px;
 }
 
 .bg_txt{
 	position: absolute;
 	white-space: nowrap;
 	font-size: 90px;
-	color: white;
+	color: #F5F5F5;
 	letter-spacing:.2em;
 	top: 50%;
 	right: 45%;
@@ -695,6 +695,17 @@
 	display: none;
 }
 
+.company01 .img_link a{
+	margin: auto 80px;
+}
+
+.company01 .img_link a:hover{
+	opacity: 0.5;
+}
+
+.company01 .img_link img{
+	width: 5%;
+}
 
 #idx_contact{
 	float:left;
@@ -1209,7 +1220,7 @@ input[type="radio"] {
 	position: absolute;
 	white-space: nowrap;
 	font-size: 	100px;
-	color: white;
+	color: #F5F5F5;
 	letter-spacing:.2em;
 	top: 20%;
 	right: 50%;
