@@ -392,13 +392,13 @@ header {
 }
 
 #idx_service .point_list li {
-	width: 25%;
+	width: 20%;
 	text-align: center;
 	margin: 100px auto;
 }
 
 #idx_service .point_list .svg_right{
-	width: 35%;
+	width: 30%;
 }
 
 #idx_service .point_list li:first-child div {
