@@ -356,7 +356,7 @@ header .head_app:hover {
 }
 
 .head_icon{
-	max-width: 70px;
+	max-width: 60px;
 }
 
 /* #main_header h1{
@@ -487,11 +487,17 @@ header .head_app:hover {
 .is-animation h1 {
 	top: 5px;
 }
+
+.is-animation h1 .head_icon{
+	max-width: 40px;
+}
+
 .is-animation h1 svg {
 	height: 70%!important;
 }
 .is-animation h2 {
-	top: 20px;
+	top: 24px;
+    font-size: 40px;
 }
 .is-animation h2 svg {
 	width: 240px!important;
