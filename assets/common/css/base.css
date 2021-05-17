@@ -485,11 +485,11 @@ header .head_app:hover {
   height: 80px;
 }
 .is-animation h1 {
-	top: 5px;
+	top: 15px;
 }
 
 .is-animation h1 .head_icon{
-	max-width: 40px;
+	max-width: 50px;
 }
 
 .is-animation h1 svg {
