@@ -398,6 +398,7 @@ header {
 #idx_service .point_list li {
 	width: 20%;
 	text-align: center;
+	margin: 0 30px;
 }
 
 #idx_service .point_list li:first-child div {
@@ -423,7 +424,7 @@ header {
 	height:25px;
 	position:absolute;
 	bottom:0px;
-	left:10%;
+	right:210px;
 	background-image:url("../images/icon_slash01_01.png");
 	background-position:center center;
 	background-repeat:no-repeat;
@@ -435,7 +436,7 @@ header {
 	height:25px;
 	position:absolute;
 	bottom:0px;
-	right:10%;
+	left:210px;
 	background-image:url("../images/icon_slash01_02.png");
 	background-position:center center;
 	background-repeat:no-repeat;
