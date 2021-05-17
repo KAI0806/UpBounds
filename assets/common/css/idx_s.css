@@ -368,17 +368,18 @@ header {
 	width:100%;
 	position:relative;
 }
+
 #idx_service .point_list li {
 	float:left;
 	width: 70%;
 	position: relative;
 	margin-right: 15%;
 	margin-left: 15%;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 	text-align: center;
 }
 
-#idx_service .point_list li img{
+#idx_service .point_list svg{
 	width: 60%;
 }
 
