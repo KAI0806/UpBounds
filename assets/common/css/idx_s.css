@@ -151,9 +151,9 @@ header {
 	width:100%;
 	position:relative;
 	background-image:url("../../index/images/about_bg.jpg");
-	background-position:center left -30px;
+	background-position:center center/cover;
 	background-repeat:no-repeat;
-	background-size: cover;
+	background-size: auto 100%;
 	background-color:#F2F2F2;
 	padding-top: 30px;
 	padding-bottom: 60px;
