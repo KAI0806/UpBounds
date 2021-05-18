@@ -384,6 +384,10 @@ header {
 }
 
 #idx_service .point_list svg{
+	width: 45%;
+}
+
+#idx_service .point_list .svg_right svg{
 	width: 60%;
 }
 
