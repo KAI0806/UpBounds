@@ -151,7 +151,7 @@ header {
 	width:100%;
 	position:relative;
 	background-image:url("../../index/images/about_bg.jpg");
-	background-position:center center;
+	background-position:center left -30px;
 	background-repeat:no-repeat;
 	background-size: auto 100%;
 	background-color:#F2F2F2;
@@ -184,12 +184,19 @@ header {
 	box-sizing: border-box;
 	font-weight:normal;
 }
+
 #idx_about h2 span{
 	font-size: 8px;
 }
+
+.middle_txt{
+	margin: 0;
+}
+
 #idx_about div.box01 {
 	padding-top: 40%;
 }
+
 #idx_about h3 {
 	float:left;
 	width:100%;
