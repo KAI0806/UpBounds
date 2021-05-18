@@ -566,6 +566,8 @@ footer .copyright {
 	position: absolute;
 	right: 0;
 	top: 100%;
+	width: 50%;
+	text-align: center;
 }
 
 .footer_menu a{

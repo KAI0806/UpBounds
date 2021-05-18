@@ -153,7 +153,7 @@ header {
 	background-image:url("../../index/images/about_bg.jpg");
 	background-position:center left -30px;
 	background-repeat:no-repeat;
-	background-size: auto 100%;
+	background-size: cover;
 	background-color:#F2F2F2;
 	padding-top: 30px;
 	padding-bottom: 60px;
