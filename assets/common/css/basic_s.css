@@ -170,7 +170,7 @@
 	margin-bottom: 60px;
 }
 
-#menu_1:hover, #menu_2:hover{
+.service_menu a{
 	opacity: 0.5;
 }
 
