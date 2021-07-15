@@ -385,7 +385,6 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi ul {
-	width: 100%;
 	position:absolute;
 	left:47%;
 	top: 20%;
