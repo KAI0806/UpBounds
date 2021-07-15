@@ -317,14 +317,14 @@ header {
 		height:15vw;
 		position:absolute;
 		top: 10vw;
-		left: -2%;
+		left: 10%;
 	}
 
 	#idx_about .img02 {
 		height:15vw;
 		position:absolute;
 		top: 10vw;
-		right:-2%;
+		right:10%;
 	}
 }
 

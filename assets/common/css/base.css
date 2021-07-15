@@ -332,6 +332,12 @@ header h2 {
 	font-family: 'Quicksand', sans-serif;
 }
 
+@media screen and (max-width: 1024px){
+	header h2 {
+		left: 32%;
+	}
+}
+
 header .head_app {
 	font-size: 14px;
 	line-height: 1em;
@@ -488,7 +494,7 @@ header .head_app:hover {
 }
 .is-animation h2 {
 	top: 24px;
-	left: 42.7%;
+	left: 37%;
     font-size: 40px;
 }
 .is-animation h2 svg {
