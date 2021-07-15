@@ -170,6 +170,12 @@
 	margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1024px){
+	#menu_1, #menu_2{
+		margin-bottom: 300px;
+	}
+}
+
 .menu_1_img{
 	background: url("../../service/images/lightning.jpg") no-repeat center center/cover;
 
@@ -185,6 +191,19 @@
 	position: absolute;
 	top: 55%;
 	right: 5%;
+}
+
+@media screen and (max-width: 1024px){
+	#menu_1 p{
+		top: 100%;
+	}
+
+	#menu_2 p{
+		position: absolute;
+		top: 100%;
+		right: 5%;
+	}
+	
 }
 
 .menu_2_img{

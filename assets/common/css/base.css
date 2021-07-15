@@ -10,6 +10,10 @@
         url('https://pocketresidence.jp/assets/common/css/CONDENSEicon.otf') format('opentype');
 }
 
+html{
+	overflow-x: hidden;
+}
+
 
 body{
 	font-family: "游ゴシック", YuGothic, "メイリオ", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -388,6 +392,13 @@ header .head_app:hover {
 	top: 20%;
 }
 
+@media screen and (max-width: 1024px){
+	#main_header #mainnavi ul {
+		left:40%;
+		top: 20%;
+	}
+}
+
 #main_header #mainnavi .img_link{
 	display: flex;
 	justify-content: space-around;
@@ -396,6 +407,12 @@ header .head_app:hover {
 	bottom: 80px;
 	left:44%;
 	text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+	#main_header #mainnavi .img_link{
+		left:35vw;
+	}
 }
 
 #main_header #mainnavi .img_link .mail{

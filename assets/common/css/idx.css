@@ -657,6 +657,13 @@ header {
 	padding-bottom: 5vw;
 }
 
+@media screen and (max-width: 1024px){
+	#idx_contact{
+		padding-top: 80px;
+		padding-bottom: 150px;
+	}
+}
+
 #idx_contact h2 {
 	float:left;
 	width:100%;
@@ -673,7 +680,7 @@ header {
 	box-sizing: border-box;
 }
 
-#idx_contact h2::before{
+/* #idx_contact h2::before{
 	content:"";
 	width:80px;
 	height:23px;
@@ -697,7 +704,7 @@ header {
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:contain;
-}
+} */
 
 #idx_contact h2 span{
 	font-size: 20px;
