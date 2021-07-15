@@ -88,6 +88,12 @@ header {
     transform: rotate(135deg);
 }
 
+@media screen and (max-width: 375px){
+	#idx_main a.down_arrow {
+		bottom: 235px;
+	}
+}
+
 
 #idx_main2 {
 	width:100%;
