@@ -360,9 +360,10 @@ header {
 	font-weight: normal!important;
 	line-height: 100%;
 	box-sizing: border-box;
+	margin-bottom: 200px;
 }
 
-#idx_service h2::before{
+/* #idx_service h2::before{
 	content:"";
 	width:80px;
 	height:23px;
@@ -386,7 +387,7 @@ header {
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:contain;
-}
+} */
 
 #idx_service h2 span{
 	font-size: 25px;

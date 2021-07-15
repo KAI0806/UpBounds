@@ -19,7 +19,6 @@ body{
 	font-family: "游ゴシック", YuGothic, "メイリオ", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 	font-size: 14px;
 	line-height: 2em;
-	overflow-x: hidden;
 	width: 100%;
 	height: auto;
 	color: #231815;
@@ -327,7 +326,7 @@ header h2 {
 	height:17px;
 	position:absolute;
 	top: 70px;
-	left:41%;
+	left:45%;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	z-index:2;
@@ -511,7 +510,7 @@ header .head_app:hover {
 }
 .is-animation h2 {
 	top: 24px;
-	left: 37%;
+	left: 45%;
     font-size: 40px;
 }
 .is-animation h2 svg {
