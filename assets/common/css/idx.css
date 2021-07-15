@@ -304,13 +304,13 @@ header {
 	height:15vw;
 	position:absolute;
 	top: 10vw;
-	left: -10vw;
+	left: 10%;
 }
 #idx_about .img02 {
 	height:15vw;
 	position:absolute;
 	top: 10vw;
-	right:-10vw;
+	right: 10%;
 }
 @media screen and (max-width: 1024px){
 	#idx_about .img01 {
