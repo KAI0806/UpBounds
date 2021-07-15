@@ -326,19 +326,15 @@ header h2 {
 	height:17px;
 	position:absolute;
 	top: 70px;
-	left:43%;
+	left:0;
+	right: 0;
+	text-align: center;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
 	z-index:2;
 	font-size: 50px;
 	font-weight: 100;
 	font-family: 'Quicksand', sans-serif;
-}
-
-@media screen and (max-width: 1024px){
-	header h2 {
-		left: 32%;
-	}
 }
 
 header .head_app {
