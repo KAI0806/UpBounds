@@ -674,7 +674,7 @@ header {
 
 }
 
-#idx_contact h2::before{
+/* #idx_contact h2::before{
 	content:"";
 	width:25px;
 	height:25px;
@@ -698,7 +698,7 @@ header {
 	background-position:center center;
 	background-repeat:no-repeat;
 	background-size:contain;
-}
+} */
 
 #idx_contact h2 span{
 	font-size: 8px;

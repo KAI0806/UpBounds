@@ -5,6 +5,7 @@
 	position: relative;
 	padding-top:150px;
 	box-sizing:border-box;
+	overflow-x: hidden;
 }
 
 #contents {
@@ -82,6 +83,7 @@
 	padding-top: 80px;
 	box-sizing: border-box;
 	position: relative;
+	overflow-x: hidden;
 }
 
 .service_bg{
@@ -174,6 +176,16 @@
 	#menu_1, #menu_2{
 		margin-bottom: 300px;
 	}
+
+	.menu_1_img, .menu_2_img{
+		width: 250px;
+		height: 250px;
+	}
+
+	#menu_1 p, #menu_2 p{
+		width: 57%;
+	}
+	
 }
 
 .menu_1_img{
@@ -324,8 +336,14 @@
 	height: 40vh;
 }
 
+@media screen and (max-width: 1024px){
+	#idx_contact{
+		padding-top: 80px;
+		padding-bottom: 150px;
+	}
+}
+
 #idx_contact h2 {
-	float:left;
 	width:100%;
 	position:relative;
 	text-align:center;
@@ -371,7 +389,6 @@
 }
 
 #idx_contact h3{
-	float:left;
 	width:100%;
 	position:relative;
 	text-align:left;
@@ -379,7 +396,6 @@
 	letter-spacing: 0.1em;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 	padding-top: 25px;
-	margin: 0 44%;
 	margin-bottom: 5%;
 	box-sizing: border-box;
 	font-weight: normal!important;
@@ -387,7 +403,19 @@
 	box-sizing: border-box;
 }
 
+.cotact_wrap{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 200px;
+}
 
+.cotact_wrap p{
+	font-size: 20px;
+	line-height: 150%;
+	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
 
 .caution{
 	text-align: center;

@@ -380,11 +380,11 @@ header .head_app {
 
 #main_header #mainnavi .img_link{
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	position:absolute;
-	bottom: 250px;
-	left:19%;
+	top: 350px;
+	width: 100%;
 	text-align: center;
 }
 
@@ -565,7 +565,7 @@ footer .copyright {
 	position: absolute;
 	right: 0;
 	top: 100%;
-	width: 50%;
+	width: 55%;
 	text-align: center;
 }
 
