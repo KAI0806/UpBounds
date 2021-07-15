@@ -403,7 +403,7 @@ header .head_app:hover {
 	justify-content: space-around;
 	align-items: center;
 	position:absolute;
-	bottom: 80px;
+	top: 45%;
 	left:44%;
 	text-align: center;
 }
