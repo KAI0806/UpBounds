@@ -505,17 +505,10 @@ header .head_app:hover {
 }
 .is-animation h2 {
 	top: 24px;
-	left: 44%;
+	left:0;
+	right: 0;
+	text-align: center;
     font-size: 40px;
-}
-
-@media screen and (max-width: 1024px){
-	.is-animation h2 {
-		top: 24px;
-		left: 37%;
-		font-size: 40px;
-	}
-
 }
 
 .is-animation h2 svg {
