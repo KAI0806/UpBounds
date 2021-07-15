@@ -312,6 +312,22 @@ header {
 	top: 10vw;
 	right:-10vw;
 }
+@media screen and (max-width: 1024px){
+	#idx_about .img01 {
+		height:15vw;
+		position:absolute;
+		top: 10vw;
+		left: -2%;
+	}
+
+	#idx_about .img02 {
+		height:15vw;
+		position:absolute;
+		top: 10vw;
+		right:-2%;
+	}
+}
+
 #idx_about .btn01 {
 	background-color: #FFF;
 }
