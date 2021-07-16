@@ -7,6 +7,10 @@ header {
   border-bottom:1px solid #E6E6E6!important;
 }
 
+.sp_only{
+	display: none;
+}
+
 #idx_containar {
     float:left;
     width: 100%;

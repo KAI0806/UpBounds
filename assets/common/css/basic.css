@@ -349,6 +349,10 @@
 		padding-top: 80px;
 		padding-bottom: 150px;
 	}
+
+	.company01 .img_link img{
+		width: 6%;
+	}
 }
 
 #idx_contact h2 {
