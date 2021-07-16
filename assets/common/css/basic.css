@@ -5,7 +5,7 @@
 	position: relative;
 	padding-top:150px;
 	box-sizing:border-box;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 #contents {
@@ -285,7 +285,7 @@
 
 .company01 dl {
 	width:100%;
-	margin-bottom:60px;
+	/* margin-bottom:60px; */
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -295,7 +295,7 @@
 	width:25%;
 	font-size:20px;
 	letter-spacing:0.1em;
-	margin: 2vw auto;
+	margin: 50px auto 20px;
 	background-color: white;
 	padding: 15px 0;
 	font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
@@ -311,6 +311,10 @@
 
 .map_sp{
 	display: none;
+}
+
+.company01 .img_link{
+	margin-top: 100px;
 }
 
 .company01 .img_link a{
@@ -330,9 +334,7 @@
 	width:100%;
 	position:relative;
 	background: #EFEFEF;
-	padding-top: 5vw;
-	padding-bottom: 5vw;
-	height: 40vh;
+	padding: 100px 0;
 }
 
 @media screen and (max-width: 1024px){
