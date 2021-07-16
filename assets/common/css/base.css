@@ -371,7 +371,6 @@ header .head_app:hover {
 	z-index: 1;
 	background-color: rgba(255, 255, 255, 1);
 	margin-top: 100px;
-	overflow-y: scroll;
 	display:none;
 }
 
