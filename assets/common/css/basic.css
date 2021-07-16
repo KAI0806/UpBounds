@@ -130,6 +130,13 @@
 	margin: auto 15px;
 	width: 30%;
 	text-align: center;
+	box-shadow: -5px 5px black;
+}
+
+.service_menu a:hover{
+	text-decoration: none;
+	box-shadow: none;
+	transition: all .2s ease-in-out;
 }
 
 #menu_1 h2, #menu_2 h2{
@@ -161,13 +168,13 @@
 	height: 350px;
 	box-shadow: 30px 30px #bbbbbb;
 	position: absolute;
-	top: 5%;
+	top: 0%;
 	left: 20%;
 }
 
 #menu_1, #menu_2{
 	position: relative;
-	height: 40vw;
+	height: 700px;
 	margin-bottom: 50px;
 }
 
@@ -194,7 +201,7 @@
 
 #menu_1 p{
 	position: absolute;
-	top: 60%;
+	bottom: 30%;
 	right: 5%;
 }
 
