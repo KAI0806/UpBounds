@@ -155,7 +155,7 @@ clear:both;
 	height: 33px;
 	width: 42px;
 	position: absolute;
-	top: 70px;
+	top: 48px;
 	right: 100px;
 	z-index: 10!important;
 	cursor: pointer;
@@ -233,7 +233,7 @@ clear:both;
 
 header {
 	width:100%;
-	height:180px;
+	height:130px;
 	position:fixed;
 	top:0px;
 	left:0px;
@@ -255,7 +255,7 @@ header h1 {
 	width: 72px;
 	height:46px;
 	position:absolute;
-	top:55px;
+	top:40px;
 	left:90px;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
@@ -325,7 +325,7 @@ header h1 #mark .st3{
 header h2 {
 	height:17px;
 	position:absolute;
-	top: 70px;
+	top: 48px;
 	left:0;
 	right: 0;
 	text-align: center;
@@ -364,13 +364,13 @@ header .head_app:hover {
 
 #main_header #mainnavi {
 	width: 100%;
-	height: calc(100% - 150px);
+	height: calc(100% - 100px);
 	position: fixed;
 	top: 0px;
 	right: 0px;
 	z-index: 1;
 	background-color: rgba(255, 255, 255, 1);
-	margin-top: 150px;
+	margin-top: 100px;
 	overflow-y: scroll;
 	display:none;
 }
@@ -398,7 +398,7 @@ header .head_app:hover {
 	justify-content: space-around;
 	align-items: center;
 	position:absolute;
-	top: 70%;
+	top: 65%;
 	left:44%;
 	text-align: center;
 }
@@ -410,12 +410,12 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi .img_link .mail{
-	width: 50%;
+	width: 40%;
 	margin: 20px;
 }
 
 #main_header #mainnavi .img_link .phone{
-	width: 48%;
+	width: 35%;
 	margin: 20px;
 
 }
@@ -445,7 +445,7 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi ul li a {
-	font-size: 35px;
+	font-size: 30px;
 	line-height: 1em;
 	transition: all 0.3s ease;
 	-webkit-transition: all 0.3s ease;
