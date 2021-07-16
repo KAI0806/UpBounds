@@ -167,6 +167,7 @@
 	padding-top: 18px;
 	border: 1px solid #000;
 	background-color: #F2F2F2;
+	box-shadow: -5px 5px 0px black;
 }
 .btn01:before {
 	content: "";
@@ -188,6 +189,8 @@
 }
 .btn01:hover {
 	text-decoration:none;
+	box-shadow: none;
+	transition: .2s all ease-in-out;
 }
 .btn01:hover:before {
 	right: 5px;
