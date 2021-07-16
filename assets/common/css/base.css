@@ -323,18 +323,18 @@ header h1 #mark .st3{
 }
 
 header h2 {
-	height:17px;
-	position:absolute;
-	top: 32px;
-	left:0;
-	right: 0;
-	text-align: center;
-	transition: all 0.3s ease;
-	-webkit-transition: all 0.3s ease;
-	z-index:2;
-	font-size: 50px;
-	font-weight: 100;
-	font-family: 'Quicksand', sans-serif;
+    height: 17px;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    z-index: 2;
+    font-size: 36px;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
 }
 
 header .head_app {
@@ -380,25 +380,21 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi ul {
-	position:absolute;
-	left:47%;
-	top: 20%;
-}
-
-@media screen and (max-width: 1024px){
-	#main_header #mainnavi ul {
-		left:40%;
-		top: 20%;
-	}
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
 }
 
 #main_header #mainnavi .img_link{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	position:absolute;
-	top: 65%;
-	left:44%;
 	text-align: center;
 }
 
@@ -426,7 +422,7 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi ul li {
-	width:100%;
+	width:fit-content;
 	font-family: 'Quicksand', sans-serif;
 	position: relative;
 }
