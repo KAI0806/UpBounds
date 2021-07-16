@@ -426,7 +426,6 @@ header .head_app:hover {
 }
 
 #main_header #mainnavi ul li {
-	float:left;
 	width:100%;
 	font-family: 'Quicksand', sans-serif;
 	position: relative;
