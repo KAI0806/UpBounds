@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="392" height="392" viewBox="0 0 392 392">
+  <g id="グループ_1447" data-name="グループ 1447" transform="translate(-1167 -1841)">
+    <g id="長方形_6" data-name="長方形 6" transform="translate(1167 1841)" fill="#fff" stroke="#707070" stroke-width="1">
+      <rect width="392" height="392" stroke="none"/>
+      <rect x="0.5" y="0.5" width="391" height="391" fill="none"/>
+    </g>
+    <path id="Icon_ionic-md-git-network" data-name="Icon ionic-md-git-network" d="M220.514,38.252a36,36,0,1,0-54,31.164v29.7l-54,27-54-27v-29.7a36,36,0,1,0-36,0V121.4l72,36v29.7a36,36,0,1,0,36,0V157.4l72-36V69.417A36.073,36.073,0,0,0,220.514,38.252ZM40.5,15.751A22.5,22.5,0,1,1,18,38.252,22.5,22.5,0,0,1,40.5,15.751Zm72,225.014a22.5,22.5,0,1,1,22.5-22.5A22.5,22.5,0,0,1,112.507,240.765Zm72-180.012a22.5,22.5,0,1,1,22.5-22.5A22.5,22.5,0,0,1,184.512,60.754Z" transform="translate(1250.493 1916.865)"/>
+  </g>
+</svg>

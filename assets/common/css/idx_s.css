@@ -200,7 +200,7 @@ header {
 }
 
 .middle_txt{
-	padding-bottom: 150px;
+	padding-bottom: 115px;
 }
 
 #idx_about div.box01 {
@@ -334,13 +334,13 @@ header {
 	box-sizing: border-box;
 }
 #idx_about .img01 {
-	width: 40%;
+	width: 25%;
 	position:absolute;
 	top: 90px;
 	left: 20px;
 }
 #idx_about .img02 {
-	width: 40%;
+	width: 25%;
 	position:absolute;
 	top: 90px;
 	right: 20px;
